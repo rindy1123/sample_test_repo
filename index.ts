@@ -1,2 +1,3 @@
-console.log("Hello Bun!");
-
+export function add(a: number, b: number) {
+  return a + b;
+}
