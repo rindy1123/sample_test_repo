@@ -7,7 +7,7 @@ describe("add", () => {
   });
 
   it("should add a positive and negative number correctly", () => {
-    expect(add(5, -3)).toBe(1);
+    expect(add(5, -3)).toBe(2);
     expect(add(-8, 12)).toBe(4);
   });
 
